@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="style/styles.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>CRUD Operations</h1>
+      <div id="input-container">
+        <input type="text" id="FirstName" placeholder="FirstName">
+        <input type="text" id="MiddleName" placeholder="MiddleName">
+        <input type="text" id="LastName" placeholder="LastName">
+        <input type="text" id="Age" placeholder="Age">
+        <input type="text" id="Gender" placeholder="Gender">
+        <input type="text" id="Birthday" placeholder="Birthday">
+        <input type="text" id="Course" placeholder="Course">
+        <input type="text" id="SchoolYear" placeholder="SchoolYear">
+        <button id="add-btn">Add</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+          <th>First Name</th>
+          <th>Middle Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Birthday</th>
+          <th>Course</th>
+          <th>School Year</th>
+          <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div id="update-container">
+        <input type="text" id="FirstName">
+        <input type="text" id="MiddleName">
+        <input type="text" id="LastName">
+        <input type="text" id="Age">
+        <input type="text" id="Gender">
+        <input type="text" id="Birthday">
+        <input type="text" id="Course">
+        <input type="text" id="SchoolYear">
+        <button id="update-btn">Update</button>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
